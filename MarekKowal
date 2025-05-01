@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mObywatel - Dowód Osobisty</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      color: #007aff;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .id-card {
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      background-color: #fafafa;
+    }
+
+    .id-card h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .id-card p {
+      margin: 5px 0;
+    }
+
+    .photo {
+      float: right;
+      width: 80px;
+      height: 100px;
+      background-color: #ccc;
+      border-radius: 4px;
+      margin-left: 10px;
+      background-image: url('https://via.placeholder.com/80x100');
+      background-size: cover;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #444;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">mObywatel</div>
+    <div class="id-card">
+      <div class="photo"></div>
+      <h2>Dowód osobisty</h2>
+      <p><span class="label">Imię:</span> Jan</p>
+      <p><span class="label">Nazwisko:</span> Kowalski</p>
+      <p><span class="label">PESEL:</span> 90010112345</p>
+      <p><span class="label">Data urodzenia:</span> 01.01.1990</p>
+      <p><span class="label">Obywatelstwo:</span> polskie</p>
+      <p><span class="label">Seria i numer:</span> ABC123456</p>
+    </div>
+    <div class="footer">To tylko symulacja do celów edukacyjnych</div>
+  </div>
+</body>
+</html>
